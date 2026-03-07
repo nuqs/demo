@@ -7,7 +7,7 @@ This is a **Spring Boot** application demonstrating a basic CRUD API with:
 - **External API call** (`Products API`)
 - **Global exception handling**
 - **Request/Response logging**
-- **Database integration** with MySQL (`TESTDB`)
+- **Database integration** with MSSQL (`TESTDB`)
 - **Postman collection & environment**
 ---
 
