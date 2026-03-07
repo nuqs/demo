@@ -53,6 +53,7 @@ CREATE TABLE TESTDB.dbo.users (
 mvn clean install
 mvn spring-boot:run
 ```
+---
 
 ## API Endpoints
 | Method | Endpoint              | Description                       |
@@ -63,6 +64,7 @@ mvn spring-boot:run
 | GET    | `/api/users/all`      | Get all users (no pagination)     |
 | GET    | `/api/users/external` | Call external API (`Products`)    |
 | DELETE | `/api/users/{id}`     | Delete user                       |
+---
 
 ## Postman Collection
 1. Environment Variables:
@@ -74,6 +76,7 @@ mvn spring-boot:run
 
 2. Collection:
    Import the JSON file: SpringBoot Test API.postman_collection.json (includes Create, Update, Get, Delete, External API endpoints)
+---
 
 ## Logging
 1. Logs are saved to:
