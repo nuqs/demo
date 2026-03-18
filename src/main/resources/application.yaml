@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=TESTDB;encrypt=false&trustServerCertificate=true&useSSL=false
+    url: jdbc:sqlserver://localhost:1433;databaseName=TESTDB;encrypt=false;trustServerCertificate=true;useSSL=false
     username: sa
     password: Password1@
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
